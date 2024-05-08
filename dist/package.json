@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"M Mohammed Afsal","email":"mmohammedafsal@kaartech.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/dateslicer.pbiviz.json"
+			}
+		],
+		"visual": {"name":"finaldateslicer","displayName":"finaldateslicer","guid":"dateslicer","visualClassName":"Visual","version":"1.0.0.0","description":"daterangeslicer","supportUrl":"www.google.com","gitHubUrl":"www.github.com"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

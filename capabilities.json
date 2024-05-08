@@ -1,0 +1,45 @@
+{
+    "dataRoles": [
+      {
+        "displayName": "Category",
+        "name": "category",
+        "kind": "Grouping"
+      }
+    ],
+    "objects": {
+      "general": {
+        "displayName": "General",
+        "properties": {
+          "formatString": {
+            "type": {
+              "formatting": {
+                "labelDisplayUnits": true
+              }
+            }
+          }
+        }
+      }
+    },
+    "dataViewMappings": [
+        {
+            "categorical": {
+                "categories": {
+                    "for": {
+                        "in": "category"
+                    },
+                    "dataReductionAlgorithm": {
+                        "window": {
+                            "count": 100000
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "supportsHighlight": true,
+    "suppressDefaultTitle": true,
+    "supportsSynchronizingFilterState": true,
+    "supportsMultiVisualSelection": true,
+    "privileges": []
+  }
+  

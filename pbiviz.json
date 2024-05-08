@@ -1,0 +1,26 @@
+{
+    "visual":
+    {
+        "name":"finaldateslicer",
+        "displayName":"finaldateslicer",
+        "guid":"dateslicer",
+        "visualClassName":"Visual",
+        "version":"1.0.0.0",
+        "description":"daterangeslicer",
+        "supportUrl":"www.google.com",
+        "gitHubUrl":"www.github.com"
+    }
+        ,"apiVersion":"5.3.0.0",
+        "author":
+        {
+            "name":"M Mohammed Afsal",
+            "email":"mmohammedafsal@kaartech.com"
+            },
+            "assets":
+            {"icon":"assets/icon.png"},
+            "externalJS":null,
+            "style":"style/visual.less",
+            "capabilities":"capabilities.json",
+            "dependencies":null,
+            "stringResources":[],
+            "version":"1.0.0.0"}
